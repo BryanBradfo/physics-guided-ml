@@ -5,7 +5,7 @@
 
 ## Overview
 
-This repository contains my solutions for the **DeepLense Google Summer of Code (GSoC)** evaluation tasks. I have completed the full suite of Common and Specific tests to demonstrate my technical capabilities and readiness to contribute to the *Physics Guided Machine Learning* project (either for independent research or GSoC 2026).
+This repository contains my solutions for the **DeepLense Google Summer of Code (GSoC)** evaluation tasks. I have completed the full suite of Common and Specific tests to demonstrate my technical capabilities and readiness to contribute to the *Physics Guided Machine Learning* project.
 
 The work focuses on applying Deep Learning to strong gravitational lensing data, ranging from standard CNN baselines to advanced **Physics-Informed Neural Networks (PINNs)**, **Diffusion Models**, and **Foundation Models**.
 
@@ -32,7 +32,7 @@ The solutions are organized as self-contained Jupyter Notebooks in the `notebook
 *   **Methodology:** Implemented a **PINN** using a ResNet backbone with a custom differentiable physics layer (Singular Isothermal Sphere model). I utilized **Curriculum Learning**, gradually increasing the weight of the physics loss ($\lambda_{physics}$) from 0 to 1.0 during training.
 *   **Key Results:**
     *   Achieved **~95% Validation Accuracy**.
-    *   Successfully reconstructed the un-lensed source plane during the forward pass.
+    *   Successfully reconstructed the unlensed source plane during the forward pass.
     *   Extracted physical parameters (Einstein Radius $\theta_E$) distributions that correlate physically with the substructure classes.
 
 ### 2. Multi-Class Classification (Common Test I)
