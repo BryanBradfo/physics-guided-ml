@@ -4,13 +4,13 @@
 **Target Project:** Physics Guided Machine Learning on Real Lensing Images  
 **Organization:** ML4Sci / DeepLense
 
-## 📌 Overview
+## Overview
 
 This repository contains my solutions for the **DeepLense Google Summer of Code (GSoC)** evaluation tasks. I have completed the full suite of Common and Specific tests to demonstrate my technical capabilities and readiness to contribute to the *Physics Guided Machine Learning* project (either for independent research or GSoC 2026).
 
 The work focuses on applying Deep Learning to strong gravitational lensing data, ranging from standard CNN baselines to advanced **Physics-Informed Neural Networks (PINNs)**, **Diffusion Models**, and **Foundation Models**.
 
-## 📂 Repository Structure
+## Repository Structure
 
 The solutions are organized as self-contained Jupyter Notebooks in the `notebooks/` directory:
 
@@ -26,7 +26,7 @@ The solutions are organized as self-contained Jupyter Notebooks in the `notebook
 
 ---
 
-## 🔬 Summary of Results
+## Summary of Results
 
 ### 1. Physics-Guided Machine Learning (Test V) - *Primary Interest*
 **Objective:** Integrate the gravitational lensing equation directly into a neural network to regularize training and improve interpretability.
@@ -73,20 +73,20 @@ The solutions are organized as self-contained Jupyter Notebooks in the `notebook
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 *   **Core:** Python, PyTorch, NumPy, Pandas.
 *   **Vision:** `torchvision`, `timm`, `opencv`, `albumentations`.
 *   **Analysis:** `scikit-learn` (Metrics, t-SNE), `scipy` (FFT), `matplotlib`, `seaborn`.
 *   **Interpretability:** `pytorch-grad-cam`.
 
-## 🚀 Usage
+## Usage
 Each notebook is self-contained. To reproduce the results:
 1.  Clone the repository.
 2.  Download the respective datasets from the links provided in the DeepLense task description.
 3.  Update the `Config` class in the notebook with your local path to the dataset.
 4.  Run the notebook cells sequentially.
 
-## 📬 Contact
+## Contact
 **Bryan Chen**  
 **École Polytechnique**
 *Email:* bryan.chen@polytechnique.edu
