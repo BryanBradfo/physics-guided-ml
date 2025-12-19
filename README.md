@@ -67,7 +67,7 @@ The solutions are organized as self-contained Jupyter Notebooks in the `notebook
 **Objective:** Leverage Self-Supervised Learning (SSL) for downstream tasks.
 *   **Methodology:**
     *   **Pre-training:** Trained a **Masked Autoencoder (MAE)** on unlabeled data (75% masking ratio).
-    *   **Task A (Classification):** Fine-tuned encoder achieving **99.34% Accuracy** (SOTA), outperforming the supervised baseline.
+    *   **Task A (Classification):** Fine-tuned encoder achieving **99.34% Accuracy**, outperforming the supervised baseline.
     *   **Task B (Super-Res):** Adapted the encoder with a pixel-shuffle head and **Zero-Initialization** strategy, achieving **43.67 dB PSNR** (+1.54 dB over baseline).
 
 ---
