@@ -1,7 +1,6 @@
 # Physics-Guided Machine Learning
 
-**Candidate:** Bryan Chen (M.Sc. Applied Mathematics & Computer Science, École Polytechnique)  
-**Target Project:** Physics Guided Machine Learning on Real Lensing Images  
+**Author:** Bryan Chen (M.Sc. Applied Mathematics & Computer Science, École Polytechnique)  
 **Organization:** ML4Sci / DeepLense
 
 ## Overview
@@ -88,5 +87,6 @@ Each notebook is self-contained. To reproduce the results:
 
 ## Contact
 **Bryan Chen**  
-**École Polytechnique**
+**École Polytechnique** 
+
 *Email:* bryan.chen@polytechnique.edu
