@@ -5,8 +5,6 @@
 
 ## Overview
 
-This repository contains my solutions for the **DeepLense Google Summer of Code (GSoC)** evaluation tasks. I have completed the full suite of Common and Specific tests to demonstrate my technical capabilities and readiness to contribute to the *Physics Guided Machine Learning* project.
-
 The work focuses on applying Deep Learning to strong gravitational lensing data, ranging from standard CNN baselines to advanced **Physics-Informed Neural Networks (PINNs)**, **Diffusion Models**, and **Foundation Models**.
 
 ## Repository Structure
@@ -84,9 +82,3 @@ Each notebook is self-contained. To reproduce the results:
 2.  Download the respective datasets from the links provided in the DeepLense task description.
 3.  Update the `Config` class in the notebook with your local path to the dataset.
 4.  Run the notebook cells sequentially.
-
-## Contact
-**Bryan Chen**  
-**École Polytechnique** 
-
-*Email:* bryan.chen@polytechnique.edu
