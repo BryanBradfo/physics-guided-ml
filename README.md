@@ -1,16 +1,13 @@
 # Physics-Guided Machine Learning
 
-**Candidate:** Bryan Chen (M.Sc. Applied Mathematics & Computer Science, École Polytechnique)  
-**Target Project:** Physics Guided Machine Learning on Real Lensing Images  
+**Author:** Bryan Chen (M.Sc. Applied Mathematics & Computer Science, École Polytechnique)  
 **Organization:** ML4Sci / DeepLense
 
-## 📌 Overview
-
-This repository contains my solutions for the **DeepLense Google Summer of Code (GSoC)** evaluation tasks. I have completed the full suite of Common and Specific tests to demonstrate my technical capabilities and readiness to contribute to the *Physics Guided Machine Learning* project (either for independent research or GSoC 2026).
+## Overview
 
 The work focuses on applying Deep Learning to strong gravitational lensing data, ranging from standard CNN baselines to advanced **Physics-Informed Neural Networks (PINNs)**, **Diffusion Models**, and **Foundation Models**.
 
-## 📂 Repository Structure
+## Repository Structure
 
 The solutions are organized as self-contained Jupyter Notebooks in the `notebooks/` directory:
 
@@ -26,14 +23,14 @@ The solutions are organized as self-contained Jupyter Notebooks in the `notebook
 
 ---
 
-## 🔬 Summary of Results
+## Summary of Results
 
 ### 1. Physics-Guided Machine Learning (Test V) - *Primary Interest*
 **Objective:** Integrate the gravitational lensing equation directly into a neural network to regularize training and improve interpretability.
 *   **Methodology:** Implemented a **PINN** using a ResNet backbone with a custom differentiable physics layer (Singular Isothermal Sphere model). I utilized **Curriculum Learning**, gradually increasing the weight of the physics loss ($\lambda_{physics}$) from 0 to 1.0 during training.
 *   **Key Results:**
     *   Achieved **~95% Validation Accuracy**.
-    *   Successfully reconstructed the un-lensed source plane during the forward pass.
+    *   Successfully reconstructed the unlensed source plane during the forward pass.
     *   Extracted physical parameters (Einstein Radius $\theta_E$) distributions that correlate physically with the substructure classes.
 
 ### 2. Multi-Class Classification (Common Test I)
@@ -68,25 +65,20 @@ The solutions are organized as self-contained Jupyter Notebooks in the `notebook
 **Objective:** Leverage Self-Supervised Learning (SSL) for downstream tasks.
 *   **Methodology:**
     *   **Pre-training:** Trained a **Masked Autoencoder (MAE)** on unlabeled data (75% masking ratio).
-    *   **Task A (Classification):** Fine-tuned encoder achieving **99.34% Accuracy** (SOTA), outperforming the supervised baseline.
+    *   **Task A (Classification):** Fine-tuned encoder achieving **99.34% Accuracy**, outperforming the supervised baseline.
     *   **Task B (Super-Res):** Adapted the encoder with a pixel-shuffle head and **Zero-Initialization** strategy, achieving **43.67 dB PSNR** (+1.54 dB over baseline).
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 *   **Core:** Python, PyTorch, NumPy, Pandas.
 *   **Vision:** `torchvision`, `timm`, `opencv`, `albumentations`.
 *   **Analysis:** `scikit-learn` (Metrics, t-SNE), `scipy` (FFT), `matplotlib`, `seaborn`.
 *   **Interpretability:** `pytorch-grad-cam`.
 
-## 🚀 Usage
+## Usage
 Each notebook is self-contained. To reproduce the results:
 1.  Clone the repository.
 2.  Download the respective datasets from the links provided in the DeepLense task description.
 3.  Update the `Config` class in the notebook with your local path to the dataset.
 4.  Run the notebook cells sequentially.
-
-## 📬 Contact
-**Bryan Chen**  
-**École Polytechnique**
-*Email:* bryan.chen@polytechnique.edu
