@@ -13,12 +13,12 @@ The solutions are organized as self-contained Jupyter Notebooks in the `notebook
 
 ```text
 └── notebooks/
-    ├── multiclass_classification.ipynb  # Common Test I: ResNet Baseline & Grad-CAM
-    ├── lens-finding.ipynb               # Specific Test II: Binary Classification & Imbalance Handling
-    ├── image-super-resolution.ipynb     # Specific Test III: SRResNet & Spectral Analysis
-    ├── diffusion-model.ipynb            # Specific Test IV: DDPM Generative Model
-    ├── physics-guided-ml.ipynb          # Specific Test V: PINN with Differentiable Ray-Tracing
-    └── foundation-model.ipynb           # Specific Test VI: Masked Autoencoder (MAE) for Classif. & SR
+    ├── 1-multiclass_classification.ipynb  # Common Test I: ResNet Baseline & Grad-CAM
+    ├── 2-lens-finding.ipynb               # Specific Test II: Binary Classification & Imbalance Handling
+    ├── 3-image-super-resolution.ipynb     # Specific Test III: SRResNet & Spectral Analysis
+    ├── 4-diffusion-model.ipynb            # Specific Test IV: DDPM Generative Model
+    ├── 5-physics-guided-ml.ipynb          # Specific Test V: PINN with Differentiable Ray-Tracing
+    └── 6-foundation-model.ipynb           # Specific Test VI: Masked Autoencoder (MAE) for Classif. & SR
 ```
 
 ---
