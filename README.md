@@ -1,7 +1,4 @@
-# Physics-Guided Machine Learning
-
-**Author:** Bryan Chen (M.Sc. Applied Mathematics & Computer Science, École Polytechnique)  
-**Organization:** ML4Sci / DeepLense
+# Physics-Guided Machine Learning | ML4Sci
 
 ## Overview
 
