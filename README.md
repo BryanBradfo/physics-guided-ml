@@ -20,7 +20,7 @@ The solutions are organized as self-contained Jupyter Notebooks in the `notebook
 
 ---
 
-## Summary of Results
+## Summary
 
 ### 1. Physics-Guided Machine Learning (Test V) - *Primary Interest*
 **Objective:** Integrate the gravitational lensing equation directly into a neural network to regularize training and improve interpretability.
