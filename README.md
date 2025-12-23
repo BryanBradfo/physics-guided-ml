@@ -4,7 +4,7 @@
 
 The work focuses on applying Deep Learning to strong gravitational lensing data, ranging from standard CNN baselines to advanced **Physics-Informed Neural Networks (PINNs)**, **Diffusion Models**, and **Foundation Models**.
 
-## Repository Structure
+## Repository
 
 The solutions are organized as self-contained Jupyter Notebooks in the `notebooks/` directory:
 
