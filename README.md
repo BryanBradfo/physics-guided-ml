@@ -1,5 +1,7 @@
 # Physics-Guided Machine Learning | ML4Sci
 
+<img width="1927" height="760" alt="image" src="https://github.com/user-attachments/assets/130d3381-630f-4860-b054-d03815b24b00" />
+
 ## Overview
 
 The work focuses on applying Deep Learning to strong gravitational lensing data, ranging from standard CNN baselines to advanced **Physics-Informed Neural Networks (PINNs)**, **Diffusion Models**, and **Foundation Models**.
