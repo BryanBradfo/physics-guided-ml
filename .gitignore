@@ -1,0 +1,13 @@
+# Data
+dataset/
+
+# Python
+__pycache__/
+*.pyc
+
+# Firebase
+firebase-debug.log
+
+# Claude Code
+CLAUDE.md
+.claude/
